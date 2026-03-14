@@ -99,11 +99,12 @@ document.getElementById("erase").addEventListener("click", erase);
 
 /* Clears canvas */
 function erase() {
-    inputBox.fillStyle = "#111";
+    inputBox.fillStyle = "#111"; // Match the new canvas background
     inputBox.fillRect(0, 0, canvas.width, canvas.height);
     displayBox.innerText = "";
     confidence.innerHTML = "&#8212";
 }
+
 
 erase();
 init();
