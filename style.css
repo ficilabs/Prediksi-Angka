@@ -96,16 +96,17 @@ body::after {
 }
 
 .title-section h1 {
-    font-size: 4.5rem;
-    font-weight: 800;
-    background: linear-gradient(135deg, #fff 0%, #a5a5a5 100%);
+    font-size: 5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #ffffff 20%, var(--accent-primary) 80%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Sofia', sans-serif;
-    letter-spacing: -2px;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: -3px;
     margin-bottom: 0.5rem;
-    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3));
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));
+    text-transform: uppercase;
 }
 
 .workspace {
